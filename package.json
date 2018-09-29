@@ -1,6 +1,6 @@
 {
   "name": "@apicase/services",
-  "version": "0.8.0",
+  "version": "0.8.2",
   "description": "Powerful API layer based on `@apicase/core`",
   "main": "index.cjs.js",
   "module": "index.es.js",
@@ -20,12 +20,12 @@
     "prepublish": "npm run build && npm run check"
   },
   "dependencies": {
-    "@apicase/core": "^0.14.5",
+    "@apicase/core": "^0.17.0",
     "delightful-bus": "^0.7.3",
-    "nanoutils": "^0.0.17"
+    "nanoutils": "^0.0.30"
   },
   "devDependencies": {
-    "@apicase/adapter-fetch": "^0.3.2",
+    "@apicase/adapter-fetch": "^0.15.1",
     "babel-cli": "^6.26.0",
     "babel-plugin-nanoutils": "^0.1.1",
     "babel-preset-env": "^1.6.1",
